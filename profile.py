@@ -14,7 +14,7 @@ for i in range(3):
   if i == 0:
     node = request.XenVM("webserver")
     
-  else: 
+  elif i ==1: 
     node = request.XenVM("observer")
    
   else: 
