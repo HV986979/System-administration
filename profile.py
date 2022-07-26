@@ -10,7 +10,7 @@ prefixForIP = "192.168.1."
 link = request.LAN("lan")
 
 # Create a XenVM
-for i in range(2):
+for i in range(3):
   if i == 0:
     node = request.XenVM("webserver")
     
