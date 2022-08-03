@@ -1,6 +1,5 @@
 #! /bin/bash
-
-#Initally I created one more file called monitorlog.log which is used to find unauthorized access
+#Installed  ssmtp & mailutils
 
 duplicatelogcount=`wc -l /var/webserver_monitor/monitorlog.log | awk '{print $1}'`
 unauthlogcount=`wc -l /var/webserver_monitor/unauthorized.log | awk '{print $1}'`
