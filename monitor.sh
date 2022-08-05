@@ -3,8 +3,8 @@
 
 duplicatelogcount=`wc -l /var/webserver_monitor/monitorlog.log | awk '{print $1}'`
 unauthlogcount=`wc -l /var/webserver_monitor/unauthorized.log | awk '{print $1}'`
-echo $duplicatelogcount
-echo $unauthlogcount
+#echo $duplicatelogcount
+#echo $unauthlogcount
 if [ "$duplicatelogcount" != "$unauthlogcount" ]
 then
      
